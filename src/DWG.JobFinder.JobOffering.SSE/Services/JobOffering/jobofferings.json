@@ -1,0 +1,272 @@
+﻿[
+  {
+    "id": 1,
+    "title": "Cloud Engineer (C#/.NET)",
+    "description": "Ontwerp en implementeer schaalbare cloudoplossingen met C# en .NET op Azure. Werk samen met DevOps om implementaties te automatiseren.",
+    "requiredSkills": [ "C#", ".NET", "Azure", "CI/CD", "REST API's" ],
+    "softSkills": [ "Teamwerk", "Probleemoplossend vermogen", "Communicatie", "Aanpassingsvermogen" ],
+    "location": "Amsterdam, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 2,
+    "title": "AI Engineer (C#/.NET)",
+    "description": "Ontwikkel AI-gedreven applicaties en integreer machine learning modellen met C# en .NET. Werk nauw samen met data scientists.",
+    "requiredSkills": [ "C#", ".NET", "ML.NET", "Python (optioneel)", "Data-analyse" ],
+    "softSkills": [ "Analytisch denken", "Samenwerken", "Creativiteit", "Nauwkeurigheid" ],
+    "location": "Rotterdam, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 3,
+    "title": "Backend Developer (C#/.NET)",
+    "description": "Bouw robuuste backend services en API's met C# en .NET. Optimaliseer prestaties en waarborg beveiliging.",
+    "requiredSkills": [ "C#", ".NET Core", "SQL Server", "Entity Framework", "API-ontwerp" ],
+    "softSkills": [ "Kritisch denken", "Tijdmanagement", "Verantwoordelijkheid", "Communicatie" ],
+    "location": "Utrecht, Nederland",
+    "employmentType": "Contract"
+  },
+  {
+    "id": 4,
+    "title": "Full Stack Developer (C#/.NET, React)",
+    "description": "Ontwikkel end-to-end webapplicaties met C#, .NET en React. Werk samen met UI/UX designers en backend engineers.",
+    "requiredSkills": [ "C#", ".NET", "React", "JavaScript", "HTML/CSS" ],
+    "softSkills": [ "Samenwerken", "Flexibiliteit", "Initiatief", "Probleemoplossend vermogen" ],
+    "location": "Eindhoven, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 5,
+    "title": "DevOps Engineer (C#/.NET)",
+    "description": "Automatiseer build- en deployment pipelines voor .NET-applicaties. Beheer cloudinfrastructuur en monitor systeemgezondheid.",
+    "requiredSkills": [ "C#", ".NET", "Azure DevOps", "Docker", "Kubernetes" ],
+    "softSkills": [ "Nauwkeurigheid", "Proactiviteit", "Teamwerk", "Veerkracht" ],
+    "location": "Den Haag, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 6,
+    "title": "Software Architect (C#/.NET)",
+    "description": "Definieer softwarearchitectuur voor enterprise .NET-oplossingen. Begeleid ontwikkelteams en bewaak codekwaliteit.",
+    "requiredSkills": [ "C#", ".NET", "Microservices", "Design Patterns", "Azure" ],
+    "softSkills": [ "Leiderschap", "Strategisch denken", "Coachen", "Besluitvaardigheid" ],
+    "location": "Groningen, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 7,
+    "title": "Junior C# Developer",
+    "description": "Help bij het ontwikkelen en onderhouden van .NET-applicaties. Neem deel aan code reviews en leer van senior developers.",
+    "requiredSkills": [ "C#", ".NET", "SQL", "Git" ],
+    "softSkills": [ "Leergierigheid", "Teamwerk", "Communicatie", "Aanpassingsvermogen" ],
+    "location": "Nijmegen, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 8,
+    "title": "Senior C# Developer",
+    "description": "Leid de ontwikkeling van complexe .NET-applicaties. Begeleid junior developers en waarborg best practices.",
+    "requiredSkills": [ "C#", ".NET", "Entity Framework", "Azure", "Unit Testing" ],
+    "softSkills": [ "Leiderschap", "Coachen", "Probleemoplossend vermogen", "Verantwoordelijkheid" ],
+    "location": "Maastricht, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 9,
+    "title": "API Developer (C#/.NET)",
+    "description": "Ontwerp en implementeer RESTful API's met .NET. Zorg voor hoge prestaties en beveiliging.",
+    "requiredSkills": [ "C#", ".NET", "REST API's", "Swagger", "OAuth" ],
+    "softSkills": [ "Analytisch denken", "Nauwkeurigheid", "Samenwerken", "Communicatie" ],
+    "location": "Tilburg, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 10,
+    "title": "Test Automation Engineer (C#/.NET)",
+    "description": "Ontwikkel geautomatiseerde tests voor .NET-applicaties. Integreer testen in CI/CD pipelines.",
+    "requiredSkills": [ "C#", ".NET", "Selenium", "xUnit", "CI/CD" ],
+    "softSkills": [ "Nauwkeurigheid", "Probleemoplossend vermogen", "Teamwerk", "Vasthoudendheid" ],
+    "location": "Almere, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 11,
+    "title": "Desktop Applicatieontwikkelaar (C#/.NET)",
+    "description": "Ontwikkel en onderhoud Windows desktopapplicaties met WPF en .NET.",
+    "requiredSkills": [ "C#", ".NET", "WPF", "MVVM", "XAML" ],
+    "softSkills": [ "Creativiteit", "Nauwkeurigheid", "Samenwerken", "Tijdmanagement" ],
+    "location": "Leiden, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 12,
+    "title": "Mobile App Developer (Xamarin/.NET MAUI)",
+    "description": "Bouw cross-platform mobiele apps met Xamarin en .NET MAUI.",
+    "requiredSkills": [ "C#", ".NET MAUI", "Xamarin", "Mobiele ontwikkeling", "REST API's" ],
+    "softSkills": [ "Aanpassingsvermogen", "Creativiteit", "Probleemoplossend vermogen", "Communicatie" ],
+    "location": "Delft, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 13,
+    "title": "Game Developer (Unity/C#)",
+    "description": "Ontwikkel interactieve games met Unity en C#. Werk samen met artiesten en ontwerpers.",
+    "requiredSkills": [ "C#", "Unity", "Game Development", "3D Modellering", "Physics Engines" ],
+    "softSkills": [ "Creativiteit", "Teamwerk", "Nauwkeurigheid", "Probleemoplossend vermogen" ],
+    "location": "Zwolle, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 14,
+    "title": "Integratie Engineer (C#/.NET)",
+    "description": "Integreer externe diensten en API's in .NET-applicaties.",
+    "requiredSkills": [ "C#", ".NET", "API-integratie", "JSON", "XML" ],
+    "softSkills": [ "Analytisch denken", "Communicatie", "Samenwerken", "Flexibiliteit" ],
+    "location": "Breda, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 15,
+    "title": "Data Engineer (C#/.NET)",
+    "description": "Bouw datapijplijnen en ETL-processen met .NET-technologieën.",
+    "requiredSkills": [ "C#", ".NET", "SQL Server", "ETL", "Azure Data Factory" ],
+    "softSkills": [ "Analytisch denken", "Nauwkeurigheid", "Probleemoplossend vermogen", "Teamwerk" ],
+    "location": "Amersfoort, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 16,
+    "title": "IoT Developer (C#/.NET)",
+    "description": "Ontwikkel IoT-oplossingen met .NET en Azure IoT Hub.",
+    "requiredSkills": [ "C#", ".NET", "Azure IoT", "MQTT", "Device Management" ],
+    "softSkills": [ "Innovatie", "Probleemoplossend vermogen", "Teamwerk", "Aanpassingsvermogen" ],
+    "location": "Haarlem, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 17,
+    "title": "Security Engineer (C#/.NET)",
+    "description": "Implementeer beveiligingsmaatregelen in .NET-applicaties. Voer code reviews en kwetsbaarheidsanalyses uit.",
+    "requiredSkills": [ "C#", ".NET", "OWASP", "Authenticatie", "Encryptie" ],
+    "softSkills": [ "Nauwkeurigheid", "Kritisch denken", "Verantwoordelijkheid", "Communicatie" ],
+    "location": "Arnhem, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 18,
+    "title": "Support Engineer (C#/.NET)",
+    "description": "Bied technische ondersteuning voor .NET-applicaties. Los klantproblemen op.",
+    "requiredSkills": [ "C#", ".NET", "Probleemoplossing", "SQL", "Klantgerichtheid" ],
+    "softSkills": [ "Geduld", "Empathie", "Communicatie", "Probleemoplossend vermogen" ],
+    "location": "Apeldoorn, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 19,
+    "title": "Business Analist (C#/.NET)",
+    "description": "Analyseer bedrijfsbehoeften en vertaal deze naar technische specificaties voor .NET-ontwikkeling.",
+    "requiredSkills": [ "C#", ".NET", "Requirements Analyse", "UML", "SQL" ],
+    "softSkills": [ "Analytisch denken", "Communicatie", "Samenwerken", "Nauwkeurigheid" ],
+    "location": "Den Bosch, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 20,
+    "title": "Scrum Master (C#/.NET Projecten)",
+    "description": "Faciliteer agile ontwikkeling voor .NET-teams. Verwijder obstakels en bewaak de voortgang.",
+    "requiredSkills": [ "C#", ".NET", "Scrum", "Agile methodieken", "Projectmanagement" ],
+    "softSkills": [ "Leiderschap", "Faciliteren", "Communicatie", "Probleemoplossend vermogen" ],
+    "location": "Haarlem, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 21,
+    "title": "Solution Consultant (C#/.NET)",
+    "description": "Werk met klanten om .NET-oplossingen op maat te ontwerpen en implementeren.",
+    "requiredSkills": [ "C#", ".NET", "Consultancy", "Oplossingsontwerp", "Klantbeheer" ],
+    "softSkills": [ "Communicatie", "Empathie", "Probleemoplossend vermogen", "Aanpassingsvermogen" ],
+    "location": "Leeuwarden, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 22,
+    "title": "Technisch Schrijver (C#/.NET)",
+    "description": "Maak en onderhoud technische documentatie voor .NET-applicaties en API's.",
+    "requiredSkills": [ "C#", ".NET", "Technisch schrijven", "API-documentatie", "Markdown" ],
+    "softSkills": [ "Nauwkeurigheid", "Duidelijkheid", "Communicatie", "Organisatie" ],
+    "location": "Venlo, Nederland",
+    "employmentType": "Parttime"
+  },
+  {
+    "id": 23,
+    "title": "QA Engineer (C#/.NET)",
+    "description": "Test .NET-applicaties en waarborg de kwaliteitsstandaarden.",
+    "requiredSkills": [ "C#", ".NET", "Testautomatisering", "Handmatig testen", "Bugtracking" ],
+    "softSkills": [ "Nauwkeurigheid", "Vasthoudendheid", "Analytisch denken", "Teamwerk" ],
+    "location": "Hilversum, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 24,
+    "title": "Release Manager (C#/.NET)",
+    "description": "Coördineer releases van .NET-applicaties. Beheer uitrolschema's en rollback-plannen.",
+    "requiredSkills": [ "C#", ".NET", "Release management", "CI/CD", "Azure DevOps" ],
+    "softSkills": [ "Organisatie", "Communicatie", "Probleemoplossend vermogen", "Verantwoordelijkheid" ],
+    "location": "Zaandam, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 25,
+    "title": "Product Owner (C#/.NET)",
+    "description": "Bepaal de productvisie en prioriteer features voor .NET-ontwikkelingsteams.",
+    "requiredSkills": [ "C#", ".NET", "Productmanagement", "Backlogbeheer", "Stakeholdercommunicatie" ],
+    "softSkills": [ "Leiderschap", "Visie", "Communicatie", "Besluitvaardigheid" ],
+    "location": "Hoofddorp, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 26,
+    "title": "Cloud Migratie Specialist (C#/.NET)",
+    "description": "Leid de migratie van legacy .NET-applicaties naar Azure cloud.",
+    "requiredSkills": [ "C#", ".NET", "Azure", "Cloudmigratie", "Legacy systemen" ],
+    "softSkills": [ "Projectmanagement", "Probleemoplossend vermogen", "Aanpassingsvermogen", "Teamwerk" ],
+    "location": "Alkmaar, Nederland",
+    "employmentType": "Contract"
+  },
+  {
+    "id": 27,
+    "title": "RPA Developer (C#/.NET)",
+    "description": "Ontwikkel robotic process automation oplossingen met .NET-technologieën.",
+    "requiredSkills": [ "C#", ".NET", "RPA-tools", "Workflowautomatisering", "UI-automatisering" ],
+    "softSkills": [ "Analytisch denken", "Creativiteit", "Nauwkeurigheid", "Samenwerken" ],
+    "location": "Emmen, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 28,
+    "title": "Support Analist (C#/.NET)",
+    "description": "Analyseer en los supporttickets op voor .NET-applicaties. Documenteer oplossingen en escaleer indien nodig.",
+    "requiredSkills": [ "C#", ".NET", "Probleemoplossing", "SQL", "Klantondersteuning" ],
+    "softSkills": [ "Geduld", "Empathie", "Communicatie", "Probleemoplossend vermogen" ],
+    "location": "Roosendaal, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 29,
+    "title": "Build Engineer (C#/.NET)",
+    "description": "Onderhoud en verbeter buildsystemen voor .NET-projecten. Automatiseer builds en deployments.",
+    "requiredSkills": [ "C#", ".NET", "Buildautomatisering", "CI/CD", "Azure DevOps" ],
+    "softSkills": [ "Nauwkeurigheid", "Probleemoplossend vermogen", "Teamwerk", "Organisatie" ],
+    "location": "Veenendaal, Nederland",
+    "employmentType": "Fulltime"
+  },
+  {
+    "id": 30,
+    "title": "Technisch Lead (C#/.NET)",
+    "description": "Leid een team van .NET-ontwikkelaars. Bewaak projectoplevering en technische kwaliteit.",
+    "requiredSkills": [ "C#", ".NET", "Teamleiderschap", "Architectuur", "Agile" ],
+    "softSkills": [ "Leiderschap", "Coachen", "Strategisch denken", "Communicatie" ],
+    "location": "Hengelo, Nederland",
+    "employmentType": "Fulltime"
+  }
+]

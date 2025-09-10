@@ -1,0 +1,13 @@
+{
+    "servers": {
+        "my-mcp-server-f96bd3b3": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "D:\\repos\\dutchworkz\\mcp-demo\\DWG.JobFinder\\src\\DWG.JobFinder.JobOffering.Console\\DWG.JobFinder.JobOffering.Console.csproj"
+            ]
+        }
+    }
+}

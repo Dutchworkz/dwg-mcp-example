@@ -1,0 +1,352 @@
+﻿[
+	{
+		"id": 1,
+		"name": "Alice de Vries",
+		"hardSkills": [ ".NET 8", "C#", "Azure", "AI/ML", "Docker", "Kubernetes" ],
+		"softSkills": [ "Teamwerk", "Communicatie", "Probleemoplossend vermogen", "Aanpassingsvermogen" ],
+		"latestSkillsetSummary": "Recentelijk verantwoordelijk voor de migratie van .NET Framework-applicaties naar .NET 8 op Azure, inclusief AI-functionaliteiten en containerisatie met Docker en Kubernetes."
+	},
+	{
+		"id": 2,
+		"name": "Brian Jansen",
+		"hardSkills": [ ".NET Core", "C#", "AWS", "Machine Learning", "Microservices", "SQL Server" ],
+		"softSkills": [ "Leiderschap", "Mentorschap", "Kritisch denken", "Tijdmanagement" ],
+		"latestSkillsetSummary": "Ontwikkelde cloud-native microservices in .NET Core op AWS en implementeerde machine learning voor bedrijfsanalyses."
+	},
+	{
+		"id": 3,
+		"name": "Priya Bakker",
+		"hardSkills": [ ".NET 7", "F#", "Google Cloud", "NLP", "GraphQL", "Entity Framework Core" ],
+		"softSkills": [ "Samenwerking", "Creativiteit", "Conflictoplossing", "Nauwkeurigheid" ],
+		"latestSkillsetSummary": "Werkte aan NLP-functies voor klantenservice-apps met .NET 7 en GCP, gebruikmakend van F# en GraphQL."
+	},
+	{
+		"id": 4,
+		"name": "Sven Willems",
+		"hardSkills": [ ".NET 6", "C#", "Azure DevOps", "AI", "Blazor", "REST APIs" ],
+		"softSkills": [ "Initiatief", "Flexibiliteit", "Empathie", "Doorzettingsvermogen" ],
+		"latestSkillsetSummary": "Implementeerde AI-gedreven dashboards in Blazor en automatiseerde CI/CD met Azure DevOps."
+	},
+	{
+		"id": 5,
+		"name": "Fatima van Dijk",
+		"hardSkills": [ ".NET 8", "VB.NET", "Azure Functions", "ML.NET", "Cosmos DB" ],
+		"softSkills": [ "Communicatie", "Leervermogen", "Samenwerking", "Plannen" ],
+		"latestSkillsetSummary": "Bouwde serverloze oplossingen met Azure Functions en ML.NET voor realtime data-analyse."
+	},
+	{
+		"id": 6,
+		"name": "Tom Peters",
+		"hardSkills": [ ".NET Core", "C#", "AWS Lambda", "AI", "Docker", "NoSQL" ],
+		"softSkills": [ "Probleemoplossend vermogen", "Teamwerk", "Aanpassingsvermogen", "Klantgerichtheid" ],
+		"latestSkillsetSummary": "Ontwikkelde schaalbare AI-microservices met .NET Core en AWS Lambda, gedistribueerd via Docker."
+	},
+	{
+		"id": 7,
+		"name": "Lotte Visser",
+		"hardSkills": [ ".NET 7", "C#", "Azure", "Cognitive Services", "SignalR" ],
+		"softSkills": [ "Creativiteit", "Samenwerking", "Leiderschap", "Empathie" ],
+		"latestSkillsetSummary": "Integreerde Azure Cognitive Services voor spraakherkenning in realtime communicatieplatforms."
+	},
+	{
+		"id": 8,
+		"name": "Jasper Mulder",
+		"hardSkills": [ ".NET 8", "C#", "Google Cloud", "AI/ML", "gRPC" ],
+		"softSkills": [ "Kritisch denken", "Tijdmanagement", "Teamwerk", "Flexibiliteit" ],
+		"latestSkillsetSummary": "Implementeerde gRPC-services op Google Cloud met AI-modellen voor voorspellende analyses."
+	},
+	{
+		"id": 9,
+		"name": "Sanne de Boer",
+		"hardSkills": [ ".NET 6", "C#", "Azure", "ML.NET", "REST APIs" ],
+		"softSkills": [ "Communicatie", "Plannen", "Samenwerking", "Doorzettingsvermogen" ],
+		"latestSkillsetSummary": "Ontwikkelde RESTful APIs met .NET 6 en ML.NET voor intelligente data-analyse."
+	},
+	{
+		"id": 10,
+		"name": "Daan Smit",
+		"hardSkills": [ ".NET Core", "C#", "AWS", "AI", "Docker", "Microservices" ],
+		"softSkills": [ "Leiderschap", "Mentorschap", "Probleemoplossend vermogen", "Aanpassingsvermogen" ],
+		"latestSkillsetSummary": "Leidde een team bij het bouwen van AI-gedreven microservices op AWS met .NET Core."
+	},
+	{
+		"id": 11,
+		"name": "Emma van Leeuwen",
+		"hardSkills": [ ".NET 8", "C#", "Azure", "AI/ML", "Kubernetes", "Cosmos DB" ],
+		"softSkills": [ "Teamwerk", "Creativiteit", "Empathie", "Plannen" ],
+		"latestSkillsetSummary": "Implementeerde schaalbare AI-oplossingen op Azure Kubernetes Service met Cosmos DB-integratie."
+	},
+	{
+		"id": 12,
+		"name": "Noah Bakker",
+		"hardSkills": [ ".NET 7", "C#", "Google Cloud", "AI", "GraphQL", "Docker" ],
+		"softSkills": [ "Samenwerking", "Kritisch denken", "Leiderschap", "Tijdmanagement" ],
+		"latestSkillsetSummary": "Bouwde GraphQL API's met .NET 7 en AI-integratie op Google Cloud."
+	},
+	{
+		"id": 13,
+		"name": "Mila de Groot",
+		"hardSkills": [ ".NET 6", "C#", "Azure", "ML.NET", "SignalR", "NoSQL" ],
+		"softSkills": [ "Creativiteit", "Probleemoplossend vermogen", "Teamwerk", "Aanpassingsvermogen" ],
+		"latestSkillsetSummary": "Implementeerde real-time AI-analyse met SignalR en ML.NET op Azure."
+	},
+	{
+		"id": 14,
+		"name": "Lucas Meijer",
+		"hardSkills": [ ".NET Core", "C#", "AWS", "AI", "Docker", "Microservices" ],
+		"softSkills": [ "Leiderschap", "Mentorschap", "Kritisch denken", "Plannen" ],
+		"latestSkillsetSummary": "Ontwikkelde microservices-architectuur met AI-functionaliteiten op AWS."
+	},
+	{
+		"id": 15,
+		"name": "Sophie de Bruin",
+		"hardSkills": [ ".NET 8", "C#", "Azure", "AI/ML", "Kubernetes", "Cosmos DB" ],
+		"softSkills": [ "Teamwerk", "Creativiteit", "Empathie", "Plannen" ],
+		"latestSkillsetSummary": "Werkte aan AI-gedreven cloudoplossingen op Azure met Kubernetes en Cosmos DB."
+	},
+	{
+		"id": 16,
+		"name": "Finn van Dam",
+		"hardSkills": [ ".NET 7", "C#", "Google Cloud", "AI", "GraphQL", "Docker" ],
+		"softSkills": [ "Samenwerking", "Kritisch denken", "Leiderschap", "Tijdmanagement" ],
+		"latestSkillsetSummary": "Implementeerde AI-ondersteunde GraphQL API's op Google Cloud."
+	},
+	{
+		"id": 17,
+		"name": "Julia Vos",
+		"hardSkills": [ ".NET 6", "C#", "Azure", "ML.NET", "SignalR", "NoSQL" ],
+		"softSkills": [ "Creativiteit", "Probleemoplossend vermogen", "Teamwerk", "Aanpassingsvermogen" ],
+		"latestSkillsetSummary": "Bouwde real-time data-analyseoplossingen met SignalR en ML.NET."
+	},
+	{
+		"id": 18,
+		"name": "Mats de Lange",
+		"hardSkills": [ ".NET Core", "C#", "AWS", "AI", "Docker", "Microservices" ],
+		"softSkills": [ "Leiderschap", "Mentorschap", "Kritisch denken", "Plannen" ],
+		"latestSkillsetSummary": "Leidde de ontwikkeling van AI-microservices op AWS."
+	},
+	{
+		"id": 19,
+		"name": "Eva de Koning",
+		"hardSkills": [ ".NET 8", "C#", "Azure", "AI/ML", "Kubernetes", "Cosmos DB" ],
+		"softSkills": [ "Teamwerk", "Creativiteit", "Empathie", "Plannen" ],
+		"latestSkillsetSummary": "Implementeerde AI-oplossingen op Azure Kubernetes Service."
+	},
+	{
+		"id": 20,
+		"name": "Lars van der Linden",
+		"hardSkills": [ ".NET 7", "C#", "Google Cloud", "AI", "GraphQL", "Docker" ],
+		"softSkills": [ "Samenwerking", "Kritisch denken", "Leiderschap", "Tijdmanagement" ],
+		"latestSkillsetSummary": "Werkte aan AI-ondersteunde GraphQL API's op Google Cloud."
+	},
+	{
+		"id": 21,
+		"name": "Tess van den Berg",
+		"hardSkills": [ ".NET 6", "C#", "Azure", "ML.NET", "SignalR", "NoSQL" ],
+		"softSkills": [ "Creativiteit", "Probleemoplossend vermogen", "Teamwerk", "Aanpassingsvermogen" ],
+		"latestSkillsetSummary": "Bouwde real-time data-analyseoplossingen met SignalR en ML.NET."
+	},
+	{
+		"id": 22,
+		"name": "Ruben de Graaf",
+		"hardSkills": [ ".NET Core", "C#", "AWS", "AI", "Docker", "Microservices" ],
+		"softSkills": [ "Leiderschap", "Mentorschap", "Kritisch denken", "Plannen" ],
+		"latestSkillsetSummary": "Leidde de ontwikkeling van AI-microservices op AWS."
+	},
+	{
+		"id": 23,
+		"name": "Nina van Vliet",
+		"hardSkills": [ ".NET 8", "C#", "Azure", "AI/ML", "Kubernetes", "Cosmos DB" ],
+		"softSkills": [ "Teamwerk", "Creativiteit", "Empathie", "Plannen" ],
+		"latestSkillsetSummary": "Implementeerde AI-oplossingen op Azure Kubernetes Service."
+	},
+	{
+		"id": 24,
+		"name": "Jens van der Meer",
+		"hardSkills": [ ".NET 7", "C#", "Google Cloud", "AI", "GraphQL", "Docker" ],
+		"softSkills": [ "Samenwerking", "Kritisch denken", "Leiderschap", "Tijdmanagement" ],
+		"latestSkillsetSummary": "Werkte aan AI-ondersteunde GraphQL API's op Google Cloud."
+	},
+	{
+		"id": 25,
+		"name": "Sara van Dongen",
+		"hardSkills": [ ".NET 6", "C#", "Azure", "ML.NET", "SignalR", "NoSQL" ],
+		"softSkills": [ "Creativiteit", "Probleemoplossend vermogen", "Teamwerk", "Aanpassingsvermogen" ],
+		"latestSkillsetSummary": "Bouwde real-time data-analyseoplossingen met SignalR en ML.NET."
+	},
+	{
+		"id": 26,
+		"name": "Tim van der Heijden",
+		"hardSkills": [ ".NET Core", "C#", "AWS", "AI", "Docker", "Microservices" ],
+		"softSkills": [ "Leiderschap", "Mentorschap", "Kritisch denken", "Plannen" ],
+		"latestSkillsetSummary": "Leidde de ontwikkeling van AI-microservices op AWS."
+	},
+	{
+		"id": 27,
+		"name": "Lieke van den Broek",
+		"hardSkills": [ ".NET 8", "C#", "Azure", "AI/ML", "Kubernetes", "Cosmos DB" ],
+		"softSkills": [ "Teamwerk", "Creativiteit", "Empathie", "Plannen" ],
+		"latestSkillsetSummary": "Implementeerde AI-oplossingen op Azure Kubernetes Service."
+	},
+	{
+		"id": 28,
+		"name": "Joris van der Wal",
+		"hardSkills": [ ".NET 7", "C#", "Google Cloud", "AI", "GraphQL", "Docker" ],
+		"softSkills": [ "Samenwerking", "Kritisch denken", "Leiderschap", "Tijdmanagement" ],
+		"latestSkillsetSummary": "Werkte aan AI-ondersteunde GraphQL API's op Google Cloud."
+	},
+	{
+		"id": 29,
+		"name": "Maud van der Ven",
+		"hardSkills": [ ".NET 6", "C#", "Azure", "ML.NET", "SignalR", "NoSQL" ],
+		"softSkills": [ "Creativiteit", "Probleemoplossend vermogen", "Teamwerk", "Aanpassingsvermogen" ],
+		"latestSkillsetSummary": "Bouwde real-time data-analyseoplossingen met SignalR en ML.NET."
+	},
+	{
+		"id": 30,
+		"name": "Gijs van der Laan",
+		"hardSkills": [ ".NET Core", "C#", "AWS", "AI", "Docker", "Microservices" ],
+		"softSkills": [ "Leiderschap", "Mentorschap", "Kritisch denken", "Plannen" ],
+		"latestSkillsetSummary": "Leidde de ontwikkeling van AI-microservices op AWS."
+	},
+	{
+		"id": 31,
+		"name": "Roos van der Pol",
+		"hardSkills": [ ".NET 8", "C#", "Azure", "AI/ML", "Kubernetes", "Cosmos DB" ],
+		"softSkills": [ "Teamwerk", "Creativiteit", "Empathie", "Plannen" ],
+		"latestSkillsetSummary": "Implementeerde AI-oplossingen op Azure Kubernetes Service."
+	},
+	{
+		"id": 32,
+		"name": "Jelle van der Horst",
+		"hardSkills": [ ".NET 7", "C#", "Google Cloud", "AI", "GraphQL", "Docker" ],
+		"softSkills": [ "Samenwerking", "Kritisch denken", "Leiderschap", "Tijdmanagement" ],
+		"latestSkillsetSummary": "Werkte aan AI-ondersteunde GraphQL API's op Google Cloud."
+	},
+	{
+		"id": 33,
+		"name": "Fleur van der Steen",
+		"hardSkills": [ ".NET 6", "C#", "Azure", "ML.NET", "SignalR", "NoSQL" ],
+		"softSkills": [ "Creativiteit", "Probleemoplossend vermogen", "Teamwerk", "Aanpassingsvermogen" ],
+		"latestSkillsetSummary": "Bouwde real-time data-analyseoplossingen met SignalR en ML.NET."
+	},
+	{
+		"id": 34,
+		"name": "Thijs van der Zanden",
+		"hardSkills": [ ".NET Core", "C#", "AWS", "AI", "Docker", "Microservices" ],
+		"softSkills": [ "Leiderschap", "Mentorschap", "Kritisch denken", "Plannen" ],
+		"latestSkillsetSummary": "Leidde de ontwikkeling van AI-microservices op AWS."
+	},
+	{
+		"id": 35,
+		"name": "Lynn van der Meulen",
+		"hardSkills": [ ".NET 8", "C#", "Azure", "AI/ML", "Kubernetes", "Cosmos DB" ],
+		"softSkills": [ "Teamwerk", "Creativiteit", "Empathie", "Plannen" ],
+		"latestSkillsetSummary": "Implementeerde AI-oplossingen op Azure Kubernetes Service."
+	},
+	{
+		"id": 36,
+		"name": "Koen van der Veen",
+		"hardSkills": [ ".NET 7", "C#", "Google Cloud", "AI", "GraphQL", "Docker" ],
+		"softSkills": [ "Samenwerking", "Kritisch denken", "Leiderschap", "Tijdmanagement" ],
+		"latestSkillsetSummary": "Werkte aan AI-ondersteunde GraphQL API's op Google Cloud."
+	},
+	{
+		"id": 37,
+		"name": "Mara van der Heuvel",
+		"hardSkills": [ ".NET 6", "C#", "Azure", "ML.NET", "SignalR", "NoSQL" ],
+		"softSkills": [ "Creativiteit", "Probleemoplossend vermogen", "Teamwerk", "Aanpassingsvermogen" ],
+		"latestSkillsetSummary": "Bouwde real-time data-analyseoplossingen met SignalR en ML.NET."
+	},
+	{
+		"id": 38,
+		"name": "Jochem van der Werf",
+		"hardSkills": [ ".NET Core", "C#", "AWS", "AI", "Docker", "Microservices" ],
+		"softSkills": [ "Leiderschap", "Mentorschap", "Kritisch denken", "Plannen" ],
+		"latestSkillsetSummary": "Leidde de ontwikkeling van AI-microservices op AWS."
+	},
+	{
+		"id": 39,
+		"name": "Saar van der Linden",
+		"hardSkills": [ ".NET 8", "C#", "Azure", "AI/ML", "Kubernetes", "Cosmos DB" ],
+		"softSkills": [ "Teamwerk", "Creativiteit", "Empathie", "Plannen" ],
+		"latestSkillsetSummary": "Implementeerde AI-oplossingen op Azure Kubernetes Service."
+	},
+	{
+		"id": 40,
+		"name": "Bram van der Woude",
+		"hardSkills": [ ".NET 7", "C#", "Google Cloud", "AI", "GraphQL", "Docker" ],
+		"softSkills": [ "Samenwerking", "Kritisch denken", "Leiderschap", "Tijdmanagement" ],
+		"latestSkillsetSummary": "Werkte aan AI-ondersteunde GraphQL API's op Google Cloud."
+	},
+	{
+		"id": 41,
+		"name": "Lara van der Hoek",
+		"hardSkills": [ ".NET 6", "C#", "Azure", "ML.NET", "SignalR", "NoSQL" ],
+		"softSkills": [ "Creativiteit", "Probleemoplossend vermogen", "Teamwerk", "Aanpassingsvermogen" ],
+		"latestSkillsetSummary": "Bouwde real-time data-analyseoplossingen met SignalR en ML.NET."
+	},
+	{
+		"id": 42,
+		"name": "Jurre van der Wal",
+		"hardSkills": [ ".NET Core", "C#", "AWS", "AI", "Docker", "Microservices" ],
+		"softSkills": [ "Leiderschap", "Mentorschap", "Kritisch denken", "Plannen" ],
+		"latestSkillsetSummary": "Leidde de ontwikkeling van AI-microservices op AWS."
+	},
+	{
+		"id": 43,
+		"name": "Nora van der Meer",
+		"hardSkills": [ ".NET 8", "C#", "Azure", "AI/ML", "Kubernetes", "Cosmos DB" ],
+		"softSkills": [ "Teamwerk", "Creativiteit", "Empathie", "Plannen" ],
+		"latestSkillsetSummary": "Implementeerde AI-oplossingen op Azure Kubernetes Service."
+	},
+	{
+		"id": 44,
+		"name": "Tijn van der Linde",
+		"hardSkills": [ ".NET 7", "C#", "Google Cloud", "AI", "GraphQL", "Docker" ],
+		"softSkills": [ "Samenwerking", "Kritisch denken", "Leiderschap", "Tijdmanagement" ],
+		"latestSkillsetSummary": "Werkte aan AI-ondersteunde GraphQL API's op Google Cloud."
+	},
+	{
+		"id": 45,
+		"name": "Fenna van der Vlist",
+		"hardSkills": [ ".NET 6", "C#", "Azure", "ML.NET", "SignalR", "NoSQL" ],
+		"softSkills": [ "Creativiteit", "Probleemoplossend vermogen", "Teamwerk", "Aanpassingsvermogen" ],
+		"latestSkillsetSummary": "Bouwde real-time data-analyseoplossingen met SignalR en ML.NET."
+	},
+	{
+		"id": 46,
+		"name": "Pepijn van der Ven",
+		"hardSkills": [ ".NET Core", "C#", "AWS", "AI", "Docker", "Microservices" ],
+		"softSkills": [ "Leiderschap", "Mentorschap", "Kritisch denken", "Plannen" ],
+		"latestSkillsetSummary": "Leidde de ontwikkeling van AI-microservices op AWS."
+	},
+	{
+		"id": 47,
+		"name": "Livia van der Plas",
+		"hardSkills": [ ".NET 8", "C#", "Azure", "AI/ML", "Kubernetes", "Cosmos DB" ],
+		"softSkills": [ "Teamwerk", "Creativiteit", "Empathie", "Plannen" ],
+		"latestSkillsetSummary": "Implementeerde AI-oplossingen op Azure Kubernetes Service."
+	},
+	{
+		"id": 48,
+		"name": "Jip van der Veen",
+		"hardSkills": [ ".NET 7", "C#", "Google Cloud", "AI", "GraphQL", "Docker" ],
+		"softSkills": [ "Samenwerking", "Kritisch denken", "Leiderschap", "Tijdmanagement" ],
+		"latestSkillsetSummary": "Werkte aan AI-ondersteunde GraphQL API's op Google Cloud."
+	},
+	{
+		"id": 49,
+		"name": "Mick van der Linden",
+		"hardSkills": [ ".NET 6", "C#", "Azure", "ML.NET", "SignalR", "NoSQL" ],
+		"softSkills": [ "Creativiteit", "Probleemoplossend vermogen", "Teamwerk", "Aanpassingsvermogen" ],
+		"latestSkillsetSummary": "Bouwde real-time data-analyseoplossingen met SignalR en ML.NET."
+	},
+	{
+		"id": 50,
+		"name": "Isa van der Meer",
+		"hardSkills": [ ".NET Core", "C#", "AWS", "AI", "Docker", "Microservices" ],
+		"softSkills": [ "Leiderschap", "Mentorschap", "Kritisch denken", "Plannen" ],
+		"latestSkillsetSummary": "Leidde de ontwikkeling van AI-microservices op AWS."
+	}
+]

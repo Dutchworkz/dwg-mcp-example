@@ -1,0 +1,91 @@
+﻿using System.Reflection;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+
+namespace DWG.JobFinder.JobOffering.SSE.Services.Employees;
+
+public class EmployeesService
+{
+    private readonly List<Employee> employees;
+
+    public EmployeesService()
+    {
+        // Load the embedded employees.json file at startup
+        var assembly = Assembly.GetExecutingAssembly();
+        var resourceName = assembly.GetManifestResourceNames()
+            .FirstOrDefault(n => n.EndsWith("employees.json", StringComparison.OrdinalIgnoreCase));
+
+        if (resourceName is null)
+            throw new InvalidOperationException("employees.json resource not found.");
+
+        using var stream = assembly.GetManifestResourceStream(resourceName)!;
+        employees = JsonSerializer.Deserialize(
+            stream,
+            EmployeesContext.Default.ListEmployee
+        ) ?? [];
+    }
+
+    public Task<List<Employee>> GetEmployees()
+    {
+        return Task.FromResult(employees);
+    }
+
+    public Task<Employee?> GetEmployee(int id)
+    {
+        var employee = employees.FirstOrDefault(e => e.Id == id);
+        return Task.FromResult(employee);
+    }
+
+    public Task<Employee?> GetEmployeeByName(string name)
+    {
+        var employee = employees.FirstOrDefault(e => e.Name.Contains(name));
+        return Task.FromResult(employee);
+    }
+
+    /// <summary>
+    /// Find employees that have a specific hard skill (case-insensitive).
+    /// </summary>
+    public Task<List<Employee>> FindByHardSkill(string skill)
+    {
+        var matches = employees
+            .Where(e => e.HardSkills != null &&
+                        e.HardSkills.Any(s => s.Contains(skill, StringComparison.OrdinalIgnoreCase)))
+            .ToList();
+        return Task.FromResult(matches);
+    }
+
+    /// <summary>
+    /// Find employees that have a specific soft skill (case-insensitive).
+    /// </summary>
+    public Task<List<Employee>> FindBySoftSkill(string skill)
+    {
+        var matches = employees
+            .Where(e => e.SoftSkills != null &&
+                        e.SoftSkills.Any(s => s.Contains(skill, StringComparison.OrdinalIgnoreCase)))
+            .ToList();
+        return Task.FromResult(matches);
+    }
+}
+
+public partial class Employee
+{
+    [JsonPropertyName("id")]
+    public int Id { get; set; }
+
+    [JsonPropertyName("name")]
+    public string? Name { get; set; }
+
+    [JsonPropertyName("hardSkills")]
+    public List<string>? HardSkills { get; set; }
+
+    [JsonPropertyName("softSkills")]
+    public List<string>? SoftSkills { get; set; }
+
+    [JsonPropertyName("latestSkillsetSummary")]
+    public string? LatestSkillsetSummary { get; set; }
+}
+
+[JsonSerializable(typeof(List<Employee>))]
+internal sealed partial class EmployeesContext : JsonSerializerContext
+{
+}

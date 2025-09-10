@@ -1,0 +1,6 @@
+@DWG.JobFinder.JobOffering.SSE_HostAddress = http://localhost:5216
+
+GET {{DWG.JobFinder.JobOffering.SSE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
