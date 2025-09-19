@@ -19,10 +19,7 @@ public class EmployeesService
             throw new InvalidOperationException("employees.json resource not found.");
 
         using var stream = assembly.GetManifestResourceStream(resourceName)!;
-        employees = JsonSerializer.Deserialize(
-            stream,
-            EmployeesContext.Default.ListEmployee
-        ) ?? [];
+        employees = JsonSerializer.Deserialize<List<Employee>>(stream)!;
     }
 
     public Task<List<Employee>> GetEmployees()
@@ -67,25 +64,10 @@ public class EmployeesService
     }
 }
 
-public partial class Employee
-{
-    [JsonPropertyName("id")]
-    public int Id { get; set; }
-
-    [JsonPropertyName("name")]
-    public string? Name { get; set; }
-
-    [JsonPropertyName("hardSkills")]
-    public List<string>? HardSkills { get; set; }
-
-    [JsonPropertyName("softSkills")]
-    public List<string>? SoftSkills { get; set; }
-
-    [JsonPropertyName("latestSkillsetSummary")]
-    public string? LatestSkillsetSummary { get; set; }
-}
-
-[JsonSerializable(typeof(List<Employee>))]
-internal sealed partial class EmployeesContext : JsonSerializerContext
-{
-}
+public record Employee(
+    [property: JsonPropertyName("id")] int Id,
+    [property: JsonPropertyName("name")] string? Name,
+    [property: JsonPropertyName("hardSkills")] List<string>? HardSkills,
+    [property: JsonPropertyName("softSkills")] List<string>? SoftSkills,
+    [property: JsonPropertyName("latestSkillsetSummary")] string? LatestSkillsetSummary
+);

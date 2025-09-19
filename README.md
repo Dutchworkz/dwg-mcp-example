@@ -42,25 +42,29 @@ An example .NET Aspire distributed application that demonstrates integrating the
 
 ## Configuration
 
-Development uses a connection string style value under `ConnectionStrings:openai` in `Client.Web/appsettings.json`:
-```
-Endpoint={{ENDPOINT_URL}};Key={{API_KEY}}
-```
-At publish time the Aspire host can bind to an Azure OpenAI resource named `openai`.
+Configuration for local development lives in `src/DWG.JobFinder.AppHost/appsettings.Development.json`.
 
-Set the model deployment name via environment variable or user secrets:
-- Key: `openAiModel`
-- Example: `gpt-4o`
-
-### User Secrets (alternative)
-From the `DWG.JobFinder.Client.Web` project directory:
-```powershell
-# Add secrets (example)
-dotnet user-secrets set ConnectionStrings:openai "Endpoint=https://YOUR-RESOURCE.openai.azure.com/;Key=YOUR_KEY" -p ./DWG.JobFinder.Client.Web.csproj
-
-# Model deployment name
-dotnet user-secrets set openAiModel gpt-4o -p ./DWG.JobFinder.Client.Web.csproj
+Example (already present with placeholders):
+```json
+{
+	"Logging": {
+		"LogLevel": {
+			"Default": "Information",
+			"Microsoft.AspNetCore": "Warning"
+		}
+	},
+	"ConnectionStrings": {
+		"openAi": "Endpoint=https://YOUR-RESOURCE.openai.azure.com/;Key=YOUR_KEY;"
+	},
+	"openAiModel": "YOUR_MODEL_DEPLOYMENT_NAME"  // e.g. gpt-4o
+}
 ```
+
+Fill in:
+- `ConnectionStrings.openAi.Endpoint` with your Azure OpenAI resource endpoint URL.
+- `ConnectionStrings.openAi.Key` with the Azure OpenAI API key.
+- `openAiModel` with the deployed model name (e.g. `gpt-4o`).
+
 
 ## Running the Solution (Dev)
 From the repository root (where the `.sln` lives):
@@ -88,12 +92,10 @@ The Aspire dashboard (if enabled) will list resources. The Blazor app will be re
 - 404 / SSE connect issues: ensure the client resolves `https+http://mcpserver` (Aspire service name must match "mcpserver" in AppHost).
 - Empty tool list: confirm attributes & that the static class is public and decorated with `[McpServerToolType]`.
 - OpenAI auth errors: verify endpoint URL ends with your resource domain and key is valid; model name matches a deployed model.
+- use `npx @modelcontextprotocol/inspector` to check your mcp endpoint use the HTTP URL from the console window of the MCP server (the url from the aspire dashboard does not work)
 
 ## Next Ideas
 - Add authentication (e.g., Azure AD) for MCP server endpoints.
-- Implement caching layer (Redis) for frequently accessed tool results.
-- Add streaming chat UI integrating MCP tool calls inline.
-- Provide integration tests for tool methods.
 
----
-Generated README – adjust deployment steps or model names as your environment evolves.
+
+

@@ -19,10 +19,7 @@ public class JobOfferingService
             throw new InvalidOperationException("jobofferings.json resource not found.");
 
         using var stream = assembly.GetManifestResourceStream(resourceName)!;
-        jobOfferings = JsonSerializer.Deserialize(
-            stream,
-            JobOfferingContext.Default.ListJobOffering
-        ) ?? [];
+        jobOfferings = JsonSerializer.Deserialize<List<JobOffering>>(stream)!;
     }
 
     public Task<List<JobOffering>> GetJobOfferings()
@@ -61,31 +58,12 @@ public class JobOfferingService
     }
 }
 
-public partial class JobOffering
-{
-    [JsonPropertyName("id")]
-    public int Id { get; set; }
-
-    [JsonPropertyName("title")]
-    public string? Title { get; set; }
-
-    [JsonPropertyName("description")]
-    public string? Description { get; set; }
-
-    [JsonPropertyName("requiredSkills")]
-    public List<string>? RequiredSkills { get; set; }
-
-    [JsonPropertyName("softSkills")]
-    public List<string>? SoftSkills { get; set; }
-
-    [JsonPropertyName("location")]
-    public string? Location { get; set; }
-
-    [JsonPropertyName("employmentType")]
-    public string? EmploymentType { get; set; }
-}
-
-[JsonSerializable(typeof(List<JobOffering>))]
-internal sealed partial class JobOfferingContext : JsonSerializerContext
-{
-}
+public record JobOffering(
+    [property: JsonPropertyName("id")] int Id,
+    [property: JsonPropertyName("title")] string? Title,
+    [property: JsonPropertyName("description")] string? Description,
+    [property: JsonPropertyName("requiredSkills")] List<string>? RequiredSkills,
+    [property: JsonPropertyName("softSkills")] List<string>? SoftSkills,
+    [property: JsonPropertyName("location")] string? Location,
+    [property: JsonPropertyName("employmentType")] string? EmploymentType
+);
